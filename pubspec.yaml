@@ -1,0 +1,14 @@
+name: proxy_scraper
+author: Tobe O <thosakwe@gmail.com>
+description: Command-line tool to mass-check proxies.
+homepage: https://github.com/thosakwe/proxy_scraper
+version: 1.0.0-dev+1
+dependencies:
+  http: ">=0.11.3 <1.0.0"
+  merge_map: ">=1.0.0 <2.0.0"
+  yaml: ">=2.0.0 <3.0.0"
+dev_dependencies:
+  dotenv: ">=0.1.3+3 <1.0.0"
+  test: ">=0.12.13 <1.0.0"
+executables:
+  proxy_scraper:

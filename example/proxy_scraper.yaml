@@ -1,0 +1,5 @@
+urls:
+- proxies.csv
+check:
+- http://google.com
+timeout: 50
